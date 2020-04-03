@@ -1,0 +1,12 @@
+The main thing keeping this program working is the fact that it is
+multithreaded. I have one thread continuously checking for user
+input while another thread is checking the time every minute. This allows
+scheduled and regular tasks so be executed at the same time. Furthermore, once
+a program should be executed, a third thread is created to use the subprocess
+module and carry out that programs execution. At any given time, there are n + 2
+threads where n is the number of programs being executed.
+
+Use army time for the config and make sure to update the program locations
+based on where they are in your environment.
+
+To run a program just enter the name in the command line.

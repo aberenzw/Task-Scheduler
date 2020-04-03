@@ -1,0 +1,29 @@
+{
+
+     "task_config": [{
+
+                "task_name": "One",
+
+                "task_location": "/home/aberenzw/internship/programs/scheduled.py",
+
+                "task_scheduled_time": "13:39:00",
+
+                "task_scheduled": "true"
+
+           },
+
+           {
+
+                "task_name": "Two",
+
+                "task_location": "/home/aberenzw/internship/programs/regular.py",
+
+                "task_scheduled_time": "",
+
+                "task_scheduled": "false"
+
+           }
+
+     ]
+
+}
